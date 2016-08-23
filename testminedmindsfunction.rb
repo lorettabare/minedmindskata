@@ -1,9 +1,5 @@
 require "minitest/autorun"
-
-def mined_minds(number)
-	1
-
-end
+require_relative "minedmindsfunction.rb"
 
 class TestMinedMindsFunction < Minitest::Test
 	def test_1_equals_1
