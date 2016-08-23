@@ -1,11 +1,13 @@
-def mined_mind(number) 
-	if number == 3
-		"Mined"
-	elsif
-		 number == 5
-		"Minds"
+def mined_minds(number)
+	if number % 3 == 0 && number % 5 == 0
+        "mined_minds"
+	elsif number % 3 == 0	
+		"mined"
+	elsif number % 5 == 0	 
+		"minds"
 	else
-	number
+		number
 	end
-end 
+end
+	
 
