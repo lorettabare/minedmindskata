@@ -1,9 +1,11 @@
 number = 1
 100.times do 
-	if number % 3 == 0
-		puts "Mined"
+	if number % 15 == 0
+		puts "Minedminds"
 	elsif
-	 number % 5 == 0
+	 number % 3 == 0
+		puts "Mined"
+	elsif number % 5 == 0
 		puts "Minds"
 	else 
 puts number
