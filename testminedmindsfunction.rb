@@ -7,7 +7,7 @@ class TestMinedMindsFunction < Minitest::Test
 	end
 	
 	def test_1_returns_1
-	  assert_equal(1, mined_minds(1))
+	   assert_equal(1, mined_minds(1))
 	end
     
     def test_2_returns_2
@@ -27,4 +27,9 @@ class TestMinedMindsFunction < Minitest::Test
 
 	end
 end
+	def test_1_equal
+class Testminedmindskata2 < Minitest::Test
+	def test_1_equals_1
+		assert_equal(1,1)
+	end
 	

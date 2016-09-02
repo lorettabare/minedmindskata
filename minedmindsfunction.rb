@@ -9,5 +9,21 @@ def mined_minds(number)
 		number
 	end
 end
+def mined_minds (22)
+	if number % 3 
+		"minedminds"
+	elsif number % 4
+		"mined"
+	elsif number % 6
+		"minds"
+	else
+		number
+	end		
+
+
+		
+			
+
+			
 	
 

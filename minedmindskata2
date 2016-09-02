@@ -1,0 +1,9 @@
+puts "Wish I was a programmer, it takes lots of time to be good"
+puts "count my sucess"
+#number_ 69 
+if (number % 3 )
+	"cool"
+elsif (number % 2)
+	"uncool"
+	end
+end
