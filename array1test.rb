@@ -5,4 +5,11 @@ class TestArrayFunction <Minitest::Test
 			results = array_mined_minds
 			assert_equal(100, results.length)
 	end
+
+
+def test_3_returns_mined
+	results = array_mined_minds
+	assert_equal("mined" , results[2])
+	end
+
 end
