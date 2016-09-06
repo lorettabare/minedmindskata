@@ -23,8 +23,10 @@ class TestArrayFunction <Minitest::Test
 		results = array_mined_minds
 		assert_equal("mined", results[32])
 	end
-
-
+	def test_array_100_element
+		results = array_mined_minds
+		assert_equal("minds", results.last)
+	end
 
 
 end
