@@ -38,11 +38,17 @@ class TestTicketsOffByOne < Minitest::Test
 	def test_to_check_winning_ticket
 		my_ticket = "1235"
 		winning_ticket = []
-		assert_equal([], ticket_off_by_one?(my_ticket, winning_ticket))
+		assert_equal([], find_tickets_one_off(my_ticket, winning_ticket))
 	end
 	def test_no_one_off_in_winning_ticket
 		my_ticket = "1235"
 		winning_ticket = ["3333" , "2323"]
-		assert_equal([], ticket_off_by_one?(my_ticket, winning_ticket))
+		assert_equal([], find_tickets_one_off(my_ticket, winning_ticket))
+	end
+
+	def test_one_ticket_one_off_returns_with_ticket
+		my_ticket = "1234"
+		winning_tickets = ["1238"]
+		assert_equal(["1238"], find_tickets_one_off(my_ticket, winning_tickets))
 	end
 end
