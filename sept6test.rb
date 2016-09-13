@@ -14,4 +14,6 @@ class TestLotteryFunction <Minitest::Test
 		winner = "4568"
 		assert_equal(false, test_winner(winner, winning_numbers))
 	end
+	
+	
 end

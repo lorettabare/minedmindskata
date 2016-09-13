@@ -8,9 +8,15 @@ class TestOneOffFunction <Minitest::Test
 		assert_equal(true, one_off?(my_ticket, winning_numbers))
 	end
 
-	def test_to_check_for_matching_numbers
-		winning_numbers = "1234"
-		my_ticket = "1239"
-		assert_equal(true, for_matching_numbers?(my_ticket, winning_numbers))
-	end
+	# def test_to_check_for_matching_numbers
+	# 	winning_numbers = "1234"
+	# 	my_ticket = "1239"
+	# 	assert_equal(true, for_matching_numbers?(my_ticket, winning_numbers))
+	# end
 end
+
+# def test_to_check_for_two_off
+# 	winning_numbers = "1234"
+# 	my_ticket = "1266"
+# 	assert_equal(true, two_off?(my_ticket, winning_numbers))
+# # end
